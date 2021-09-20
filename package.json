@@ -7,6 +7,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@vanilla-extract/css": "^1.6.0",
     "classnames": "2.3.1",
     "date-fns": "2.21.3",
     "gray-matter": "4.0.3",
@@ -22,6 +23,9 @@
     "@types/node": "^15.6.0",
     "@types/react": "^17.0.6",
     "@types/react-dom": "^17.0.5",
+    "@types/tailwindcss": "^2.2.1",
+    "@vanilla-extract/next-plugin": "^1.0.0",
+    "@vanilla-extract/babel-plugin": "^1.1.0",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.3.0",
     "tailwindcss": "^2.1.2"
