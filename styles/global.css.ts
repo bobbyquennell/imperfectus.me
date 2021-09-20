@@ -1,5 +1,5 @@
 import { globalStyle } from '@vanilla-extract/css';
-import { token } from '../styles/themes.css';
+import { token } from './themes.css';
 
 globalStyle('html, body', {
   margin: 0,
