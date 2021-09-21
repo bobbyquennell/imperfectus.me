@@ -1,3 +1,4 @@
+import { ColorModeToggle } from "./ColorModeToggle/ColorModeToggle"
 
 const Intro = () => {
   return (
@@ -8,6 +9,7 @@ const Intro = () => {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         There is a crack in my mind, So I can get the light in
       </h4>
+      <ColorModeToggle/>
     </section>
   )
 }
