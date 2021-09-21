@@ -6,10 +6,10 @@ const Intro = () => {
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         侘び・寂び　
       </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
+      <h4 className="text-center md:text-left text-lg md:pl-8">
         There is a crack in my mind, So I can get the light in
       </h4>
-      <ColorModeToggle/>
+      <div className='flex-none'><ColorModeToggle/></div>
     </section>
   )
 }
