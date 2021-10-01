@@ -36,7 +36,7 @@ const Meta = () => {
         name="description"
         content={`Personal blog by Bobby Wang`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image" content="/assets/incomplete.jpg" />
     </Head>
   )
 }
